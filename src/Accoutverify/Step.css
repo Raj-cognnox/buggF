@@ -1,0 +1,57 @@
+.stepwizard-step p {
+  margin-top: 0px;
+  color:#666;
+}
+.stepwizard-row {
+  display: table-row;
+}
+.stepwizard {
+  display: table;
+  width: 100%;
+  position: relative;
+}
+
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+  opacity:1 !important;
+  color:#bbb;
+}
+.stepwizard-row:before {
+  top: 14px;
+  bottom: 0;
+  position: absolute;
+  content:" ";
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: 0;
+}
+.stepwizard-step {
+  display: table-cell;
+  text-align: center;
+  position: relative;
+}
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 7px 10px;
+  font-size: 12px;
+  line-height: 30px;
+  background: #b1acac;
+  color: #fff;
+}
+.btn_check
+{
+  background :#ee0c0cfb;
+  color:#fff !important;
+}
+.step_btn{
+
+    border-radius: 50% !important;
+}
+/* .setup-content {
+  width: 320px; 
+  margin: 25px auto;
+  padding: 10px;
+  background:#fff;
+} */
